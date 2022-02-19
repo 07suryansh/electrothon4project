@@ -12,17 +12,17 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar/>
-    
+    {/* <SearchCenter/> */}
     <Routes>
-        {/* <Route path="home" element={<SearchCenter />} /> */}
+    <Route path="" element={<SearchCenter />} />
+        <Route path="home" element={<SearchCenter />} />
         <Route path="faq" element={<FAQ />} />
         </Routes>
-        <SearchCenter/>
-        <Routes>
         
-        <Route path="bypincode" element={<ByPincode />} />
-        <Route path="bycity" element={<ByCity />} />
-        </Routes>
+        {/* <Routes> */}
+        {/* <Route path="bypincode" element={<ByPincode />} />
+        <Route path="bycity" element={<ByCity />} /> */}
+        {/* </Routes> */}
         
       
     

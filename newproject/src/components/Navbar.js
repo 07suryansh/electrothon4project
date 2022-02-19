@@ -8,7 +8,7 @@ export default function
        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{height:"70px"}}>
   <div className="container-fluid">
   
-    <Link className="navbar-brand" to="#"><img src={logo} width="60" height="60" style={{borderRadius:"2px"}} className='mx-1'/>
+    <Link className="navbar-brand" to="home"><img src={logo} width="60" height="60" style={{borderRadius:"2px"}} className='mx-1'/>
         </Link>
         <Link className="navbar-brand " to="home"><h4>CovidVaccination</h4></Link>
        
