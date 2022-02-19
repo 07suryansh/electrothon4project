@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function () {
   return (
-    <div className="container">
+    <div className="container mt-5">
+        <p className="h1 my-4">Frequently Asked Questions</p>
         <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingOne">

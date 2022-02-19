@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './img2.jpg'
+import { Routes, Route, Link } from "react-router-dom";
 export default function 
 () {
   return (
@@ -7,20 +8,16 @@ export default function
        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{height:"70px"}}>
   <div className="container-fluid">
   
-    <a className="navbar-brand" href="#"><img src={logo} width="60" height="60" style={{borderRadius:"5px"}} className='mx-1'/>
-        </a>
-        <a className="navbar-brand " href="#"><h4>CovidVaccination</h4></a>
+    <Link className="navbar-brand" to="#"><img src={logo} width="60" height="60" style={{borderRadius:"2px"}} className='mx-1'/>
+        </Link>
+        <Link className="navbar-brand " to="home"><h4>CovidVaccination</h4></Link>
        
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
+    
+      
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active h4" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active h4" aria-current="page" href="#">FAQ</a>
+          <Link className="nav-link active h4" aria-current="page" to="faq">FAQ</Link>
         </li>
         
         

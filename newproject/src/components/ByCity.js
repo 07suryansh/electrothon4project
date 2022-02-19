@@ -3,15 +3,15 @@ import React from 'react'
 export default function () {
   return (
     <div className='container'>
-        <div className="d-flex justify-content-center">
-            <select class="form-select mx-2" aria-label="Default select example" style={{width:"25%"}}>
-                <option selected>Open this select menu</option>
+        <div className="d-flex justify-content-center mt-4">
+            <select className="form-select mx-2" aria-label="Default select example" style={{width:"25%"}}>
+                <option selected>Select State</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select>
-            <select class="form-select mx-2" aria-label="Default select example" style={{width:"25%"}}>
-                <option selected>Open this select menu</option>
+            <select className="form-select mx-2" aria-label="Default select example" style={{width:"25%"}}>
+                <option selected>Select City</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
