@@ -3,6 +3,7 @@ import './App.css';
 import FAQ from './components/FAQ';
 import Navbar from './components/Navbar';
 import SearchCenter from './components/SearchCenter';
+import Slots from './components/Slots';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     
     <SearchCenter/>
     {/* <FAQ/> */}
+    <Slots/>
       </>
   );
 }
