@@ -5,7 +5,10 @@ import ByPincode from "./ByPincode";
 import img2 from "./img2.jpg";
 import { Routes, Route, Link } from "react-router-dom";
 import SlotsComponent from "./SlotsComponent";
+import logo from './bg.jpg';
 import { useState } from "react";
+
+
 export default function SearchCenter() {
   const [input, setInput] = useState("");
   const [visible, setvisible] = useState(false);
@@ -13,9 +16,9 @@ export default function SearchCenter() {
 
   return (
     <>
-      <div className="container mt-5 text-center">
-        <p className="h1 my-5">Search Nearest Vaccination Center</p>
-        <div className="container">
+      <div className="container mt-5 text-center" >
+        <p className="h1 my-5" >Search Nearest Vaccination Center</p>
+        <div className="container" >
           <div className="d-flex p-2 bd-highlight mt-4 justify-content-center">
             <input
               type="text"

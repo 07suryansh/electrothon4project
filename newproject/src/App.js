@@ -6,7 +6,7 @@ import SearchCenter from './components/SearchCenter';
 import ByPincode from './components/ByPincode';
 import ByCity from './components/ByCity';
 import Slots from './components/Slots';
-
+import logo from './bg.jpg';
 import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import SlotsComponent from './components/SlotsComponent';
 
@@ -15,6 +15,7 @@ function App() {
     <>
     
     <BrowserRouter>
+    <div style={{ backgroundImage: `url(${logo})` }}>
     <Navbar/>
     {/* <SearchCenter/> */}
     <Routes>
@@ -35,7 +36,7 @@ function App() {
     {/* <Slots/> */}
     {/* <FAQ/> */}
     
-  
+    </div>
     
     </BrowserRouter>
     

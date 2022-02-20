@@ -1,15 +1,16 @@
 import React from 'react'
+import logo from './bg.jpg';
 
 export default function FAQ () {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" style={{ backgroundImage: `url(${logo})` ,width:"50%",height:"50%"}}>
         <p className="h1 my-4">Frequently Asked Questions</p>
         <div className="accordion" id="accordionExample">
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
       <h4>Should I take certain drugs like paracetamol after getting vaccinated? </h4> 
       </button>
     </h2>
@@ -21,9 +22,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
        <h4>What measures should I take after getting vaccinated ? </h4> 
       </button>
     </h2>
@@ -35,9 +36,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
        <h4>What should I eat after taking the vaccine? </h4>
       </button>
     </h2>
@@ -48,9 +49,9 @@ export default function FAQ () {
     </div>
   </div>
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingFour">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
        <h4>What are the side effects of vaccine? </h4>
       </button>
     </h2>
@@ -62,9 +63,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingFive">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
        <h4>What to do if injected site swells up and is causing pain?  </h4>
       </button>
     </h2>
@@ -76,9 +77,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingSix">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
        <h4>From where to get my vaccine certificates?  </h4>
       </button>
     </h2>
@@ -90,9 +91,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingSeven">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
        <h4>Am I risk free after taking both the doses of vaccine?  </h4>
       </button>
     </h2>
@@ -104,9 +105,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingEight">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
        <h4>What is the effectiveness of Covishield vaccine ?  </h4>
       </button>
     </h2>
@@ -118,9 +119,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingNine">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
        <h4>What is the effectiveness Covaxin ? </h4>
       </button>
     </h2>
@@ -131,9 +132,9 @@ export default function FAQ () {
     </div>
   </div>
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingTen">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
        <h4>How can I register myself for COVID test? </h4>
       </button>
     </h2>
@@ -145,9 +146,9 @@ export default function FAQ () {
   </div>
 
 
-  <div className="accordion-item">
+  <div className="accordion-item" >
     <h2 className="accordion-header" id="headingEleven">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+      <button className="accordion-button collapsed"   type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
        <h4>Why should I get vaccinated ?  </h4>
       </button>
     </h2>

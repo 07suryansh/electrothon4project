@@ -1,6 +1,6 @@
 import React from 'react'
 import Slots from './Slots'
-
+import logo from './bg.jpg';
 import { useState } from 'react'
 import { useEffect } from 'react';
 export default function SlotsComponent(props) {
@@ -80,11 +80,11 @@ let centers=[];
   
   return (
       
-    <div className='container'>
+    <div className='container' >
        
-        <div className="row">
+        <div className="row" >
         {state.map((element)=>{
-            return  <div className="col-md-3" key={element.session_id}>
+            return  <div className="col-md-3" key={element.session_id} style={{ backgroundImage: `url(${logo})`}}>
             <Slots  title={element.name+" "+element.address} vacc={element.vaccine} dose1={element.available_capacity_dose1} dose2={element.available_capacity_dose2} age={element.min_age_limit} url="https://selfregistration.cowin.gov.in/"/>
             </div>
         })}

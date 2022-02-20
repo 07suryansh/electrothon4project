@@ -1,12 +1,13 @@
 import React from 'react'
 import img2 from './img2.jpg'
+import logo from './bg.jpg';
 import { Link } from "react-router-dom";
 export default function Slots(props) {
  
   return (
     <>
-    <div className="d-flex container mt-4">
-          <div className="card" style={{width: "250px",height:"250px"}}>
+    <div className="d-flex container mt-4" >
+          <div className="card" style={{width: "250px",height:"250px"}} >
         {/* <img src={img2} className="card-img-top" /> */}
         
         <div className="card-body">
