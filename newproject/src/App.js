@@ -6,10 +6,14 @@ import SearchCenter from './components/SearchCenter';
 import ByPincode from './components/ByPincode';
 import ByCity from './components/ByCity';
 import Slots from './components/Slots';
+
 import {BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import SlotsComponent from './components/SlotsComponent';
+
 function App() {
   return (
     <>
+    
     <BrowserRouter>
     <Navbar/>
     {/* <SearchCenter/> */}
@@ -17,6 +21,7 @@ function App() {
     <Route path="" element={<SearchCenter />} />
         <Route path="home" element={<SearchCenter />} />
         <Route path="faq" element={<FAQ />} />
+        
         </Routes>
         
         {/* <Routes> */}
@@ -29,7 +34,11 @@ function App() {
     {/* <SearchCenter/> */}
     {/* <Slots/> */}
     {/* <FAQ/> */}
+    
+  
+    
     </BrowserRouter>
+    
       </>
   );
 }
