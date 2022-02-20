@@ -5,7 +5,10 @@ import ByPincode from "./ByPincode";
 import img2 from "./img2.jpg";
 import { Routes, Route, Link } from "react-router-dom";
 import SlotsComponent from "./SlotsComponent";
+import { useState } from "react";
 export default function () {
+
+  const [input, setinput] = useState("");
   return (
     <>
       <div className="container mt-5 text-center">
@@ -22,15 +25,17 @@ export default function () {
             </ul>    */}
         <div className="container">
           <div className="d-flex p-2 bd-highlight mt-4 justify-content-center">
+            
             <input
               type="text"
               className="form-control mx-3"
               placeholder="Enter your pincode"
               aria-label="pincode"
+              
               aria-describedby="basic-addon2"
               style={{ width: "25%" }}
             />
-            <button type="button" className="btn btn-success">
+            <button type="button" className="btn btn-success" >
               Search
             </button>
             
