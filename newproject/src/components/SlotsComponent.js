@@ -70,8 +70,9 @@ let centers=[];
       let data=await fetch(url);
       let parsedData=await data.json();
       console.log(parsedData);
-      
-      setState(parsedData.sessions)  
+      console.log(new Date().toLocaleDateString())
+      setState(parsedData.sessions) 
+      console.log(props.inputPin) 
       
       
   },[])
