@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './img2.jpg'
 import { Routes, Route, Link } from "react-router-dom";
-export default function 
+export default function Navbar
 () {
   return (
     <div>

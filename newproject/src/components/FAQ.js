@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+export default function FAQ () {
   return (
     <div className="container mt-5">
         <p className="h1 my-4">Frequently Asked Questions</p>

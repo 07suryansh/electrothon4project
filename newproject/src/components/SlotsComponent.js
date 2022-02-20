@@ -3,7 +3,7 @@ import Slots from './Slots'
 
 import { useState } from 'react'
 import { useEffect } from 'react';
-export default function () {
+export default function SlotsComponent(props) {
 
 // const centers= [
 //     {
@@ -66,7 +66,7 @@ let centers=[];
 
   useEffect(async()=>{
      
-      let url=`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=208001&date=${new Date().toLocaleDateString()}`;
+      let url=`https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=${props.inputPin}&date=${new Date().toLocaleDateString()}`;
       let data=await fetch(url);
       let parsedData=await data.json();
       console.log(parsedData);

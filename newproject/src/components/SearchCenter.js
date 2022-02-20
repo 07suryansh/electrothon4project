@@ -6,9 +6,9 @@ import img2 from "./img2.jpg";
 import { Routes, Route, Link } from "react-router-dom";
 import SlotsComponent from "./SlotsComponent";
 import { useState } from "react";
-export default function () {
+export default function SearchCenter() {
 
-  const [input, setinput] = useState("");
+  const [input, setInput] = useState("");
   return (
     <>
       <div className="container mt-5 text-center">
@@ -31,11 +31,11 @@ export default function () {
               className="form-control mx-3"
               placeholder="Enter your pincode"
               aria-label="pincode"
-              
+              value={input}
               aria-describedby="basic-addon2"
               style={{ width: "25%" }}
             />
-            <button type="button" className="btn btn-success" >
+            <button type="button" className="btn btn-success" onKeyPress={setInput({value:""})} >
               Search
             </button>
             
